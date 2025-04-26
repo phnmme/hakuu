@@ -7,9 +7,7 @@ export default function App({ Component, pageProps }) {
       <div className="fixed z-50 w-full ">
         <Navbar />
       </div>
-      <div className="">
         <Component {...pageProps} />
-      </div>
     </div>
   );
 }

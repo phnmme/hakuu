@@ -21,12 +21,14 @@ export function Navbar() {
           isScrolled ? "bg-black shadow-lg" : "bg-transparent"
         }`}
       >
+        <a href="/" className="flex items-center gap-2">
         <Image
           src="/assets/image/Onlyหมึก.gif"
           width={60}
           height={60}
           alt="logopolice"
         />
+        </a>
         <div className="text-white text-xl">Hakuu Community</div>
       </div>
     </>
